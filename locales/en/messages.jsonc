@@ -1887,7 +1887,7 @@
         "message": "Hide messages count in the navigation bar"
     },
     "features_AnimalImages_title": {
-        "message": "Replace all images with images of a certain animal"
+        "message": "Replace all images with images of a selected animal"
     },
     "features_AnimalImages_values_Seal": {
         "message": "Seal"
@@ -1899,7 +1899,7 @@
         "message": "Disabled"
     },
     "features_AnimalText_title": {
-        "message": "Replace all text with text from a certain animal"
+        "message": "Replace all text with text from a selected animal"
     },
     "features_AnimalText_values_Seal": {
         "message": "Seal"
