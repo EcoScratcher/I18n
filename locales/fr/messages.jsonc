@@ -65,6 +65,17 @@
         "message": "Retourner au Paramètres Roblox"
     },
 
+    "settings_languageswitcher_title": {
+        "message": ""
+    },
+    // i.e. "American English (default)"
+    "settings_languageswitcher_defaulttext": {
+        "message": ""
+    },
+    "settings_languageswitcher_changenotice": {
+        "message": ""
+    },
+
     // "About" selection in menu and title
     "settings_selection_about": {
         "message": "À propos de RoSeal"
@@ -137,8 +148,17 @@
     "settings_featureswitches_featureswitch_permissions_title": {
         "message": "Permissions Requises"
     },
-    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+    "settings_featureswitches_featureswitch_permissions_required_title": {
+        "message": ""
+    },
+    "settings_featureswitches_featureswitch_permissions_optional_title": {
+        "message": ""
+    },
+    "settings_featureswitches_featureswitch_permissions_values_cookies": {
         "message": "Cookies"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_webRequest": {
+        "message": ""
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
         "message": "Les autorisations peuvent être accordées dans la page d'options de RoSeal :"
@@ -156,6 +176,18 @@
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
         "message": "Une erreur est survenue lors la suppression du stockage associé à cette fonctionnalité, essayez plus tard"
+    },
+    "promptpermissionsmodal_title": {
+        "message": ""
+    },
+    "promptpermissionsmodal_body": {
+        "message": ""
+    },
+    "promptpermissionsmodal_action": {
+        "message": ""
+    },
+    "promptpermissionsmodal_neutral": {
+        "message": ""
     },
 
     // "Blocked Experiences" selection tab in menu and title
@@ -273,6 +305,16 @@
         "message": "RoSeal n'est pas autorisé à gérer les cookies du navigateur. Veuillez l'autoriser dans la boîte de dialogue contextuelle de RoSeal à partir de la barre d'outils du navigateur."
     },
 
+    "experience_countdown_release": {
+        "message": ""
+    },
+    "experience_countdown_update": {
+        "message": ""
+    },
+    "experience_countdown_unknown": {
+        "message": ""
+    },
+
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
         "message": "Voir la page de l'icône"
@@ -284,7 +326,7 @@
         "message": ""
     },
 
-    // "Private Servre Links" section
+    // "Private Server Links" section
     "experience_privateserverlinks_title": {
         "message": ""
     },
@@ -517,6 +559,101 @@
         "message": "ID de l'univers"
     },
 
+    // haa = hidden avatar asset
+    "haa_deletemodal_title": {
+        "message": ""
+    },
+    "haa_deletemodal_body": {
+        "message": ""
+    },
+    "haa_deletemodal_action": {
+        "message": ""
+    },
+    "haa_deletemodal_neutral": {
+        "message": ""
+    },
+    "haa_deletemodal_systemfeedback_success": {
+        "message": ""
+    },
+    "haa_deletemodal_systemfeedback_error": {
+        "message": ""
+    },
+    "haa_tryon": {
+        "message": ""
+    },
+    "haa_takeoff": {
+        "message": ""
+    },
+    "haa_3d": {
+        "message": ""
+    },
+    "haa_2d": {
+        "message": ""
+    },
+    "haa_by": {
+        "message": ""
+    },
+    "haa_itemowned": {
+        "message": ""
+    },
+    "haa_availableinventory": {
+        "message": ""
+    },
+    "haa_offsale": {
+        "message": ""
+    },
+    "haa_premiumsave": {
+        "message": ""
+    },
+    "haa_availablepremium": {
+        "message": ""
+    },
+    "haa_unavailablepremium": {
+        "message": ""
+    },
+    "haa_fields_type": {
+        "message": ""
+    },
+    "haa_fields_tradable": {
+        "message": ""
+    },
+    "haa_fields_tradable_yes": {
+        "message": ""
+    },
+    "haa_fields_tradable_no": {
+        "message": ""
+    },
+    "haa_fields_description": {
+        "message": ""
+    },
+    "haa_addtofavorites": {
+        "message": ""
+    },
+    "haa_removefromfavorites": {
+        "message": ""
+    },
+    "haa_contextmenu_reportitem": {
+        "message": ""
+    },
+    "haa_contextmenu_addtoprofile": {
+        "message": ""
+    },
+    "haa_contextmenu_removefromprofile": {
+        "message": ""
+    },
+    "haa_addtoprofile_systemfeedback_success": {
+        "message": ""
+    },
+    "haa_removefromprofile_systemfeedback_success": {
+        "message": ""
+    },
+    "haa_addtoprofile_systemfeedback_error": {
+        "message": ""
+    },
+    "haa_removefromprofile_systemfeedback_error": {
+        "message": ""
+    },
+
     // The asset's numeric product ID
     "generalasset_productid": {
         "message": "ID du produit"
@@ -525,9 +662,15 @@
     "collectibleasset_collectibleitemid": {
         "message": "ID de l'objet à collectionner"
     },
+    "bundle_collectibleitemid": {
+        "message": ""
+    },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
         "message": "ID du produit à collectionner"
+    },
+    "bundle_collectibleproductid": {
+        "message": ""
     },
 
     // The developer product's numeric product ID
@@ -540,8 +683,37 @@
         "message": "Actualiser les détails de l'article"
     },
 
+    // Off sale timer for avatar items that will appear under the Price, countdown is automatically translated
+    "avataritem_saletimer": {
+        "message": ""
+    },
+
+    // Shows instead of just the time, updatedTime is when item was updated
+    "avataritem_updated_by": {
+        "message": ""
+    },
+
+    // Shows instead of just the time, createdTime is when item was created
+    "avataritem_created_by": {
+        "message": ""
+    },
+
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
     "avataritem_searchbycreator": {
+        "message": ""
+    },
+
+    // Item bundles at the top of the page
+    "avataritem_itembundles_multiplebundles": {
+        "message": ""
+    },
+    "avataritem_itembundles_searchbundles": {
+        "message": ""
+    },
+    "avataritem_itembundles_partof": {
+        "message": ""
+    },
+    "avataritem_itembundles_partof_view": {
         "message": ""
     },
 
@@ -634,8 +806,8 @@
     },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
-    "experience_avatarrestricted": {
-        "message": "Votre avatar actuel peut ne pas ressembler ou fonctionner comme prévu dans cette expérience."
+    "experience_avatarrestricted2": {
+        "message": ""
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
@@ -704,6 +876,9 @@
     "item_offsale_short": {
         "message": "Non disponible"
     },
+    "item_free": {
+        "message": ""
+    },
 
     // Developer product fields stuff.
     "developerproduct_offsale": {
@@ -729,6 +904,12 @@
     },
     "developerproduct_contextmenu_viewiconasset": {
         "message": "Voir la page de l'icône"
+    },
+    "developerproduct_by": {
+        "message": ""
+    },
+    "developerproduct_purchaseassociateduniverse": {
+        "message": ""
     },
 
     // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
@@ -767,8 +948,11 @@
         "message": "{sealEmoji} Vous quittez Roblox"
     },
     // Modal shown when clicking the button to warn the user
-    "experience_communitywiki_modal_body": {
-        "message": "Attention, Robloxien - en cliquant sur 'Continuer', vous serez redirigé vers Fandom, qui n'appartient ni n'est exploité par Roblox. Ils peuvent avoir des conditions et des politiques de confidentialité différentes.{lineBreak}{lineBreak}Le wiki non officiel de la Communautée vers lequel vous serez redirigé fait partie du projet Roblox Interwiki sur Fandom et s'appuie sur les modifications de la communauté. Les informations peuvent être controversées, vandalisées, obsolètes ou manipulées."
+    "experience_communitywiki_modal_body_fandom": {
+        "message": ""
+    },
+    "experience_communitywiki_modal_body_other": {
+        "message": ""
     },
     "experience_communitywiki_modal_action": {
         "message": "Continuer"
@@ -834,6 +1018,11 @@
     // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
     "experience_media_viewthumbnailasset": {
         "message": "Afficher la page de la miniature"
+    },
+
+    // Shown in inventory when an item is hidden, like LIMITED or LIMITED UNIQUE tags
+    "itemtag_hidden": {
+        "message": ""
     },
 
     // Funny little home header secret messages that can be shown despite the user's role
@@ -926,6 +1115,12 @@
     },
     "homeheader_secretmessage_Default30": {
         "message": "euh... miam?"
+    },
+    "homeheader_secretmessage_Default31": {
+        "message": ""
+    },
+    "homeheader_secretmessage_Default32": {
+        "message": ""
     },
 
     // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
@@ -1098,6 +1293,10 @@
     },
     "userlookup_directlookuperror": {
         "message": "Un utilisateur avec ce nom d'utilisateur n'as pas été trouvé."
+    },
+
+    "discover_tryexactmatch": {
+        "message": ""
     },
 
     // Discover filters labels and dropdown values stuff
@@ -1385,6 +1584,20 @@
         "message": ""
     },
 
+    // Set visibility status of models & packages in Creations tab
+    "userprofile_creations_modelsvisibility_title": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_titletooltip": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_items_Visible": {
+        "message": ""
+    },
+    "userprofile_creations_modelsvisibility_items_Hidden": {
+        "message": ""
+    },
+
     // System feedback banners for force unfollow in the profile
     "userprofile_actions_forceunfollow_systemfeedback_success": {
         "message": ""
@@ -1452,6 +1665,38 @@
         "message": ""
     },
 
+    // Better "Experience Notifications" section
+    "robloxsettings_experiencenotifications_title": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_description": {
+        "message": ""
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_experiencenotifications_noexperiences": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_experience_by": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_experience_since": {
+        "message": ""
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_experiencenotifications_experience_lastupdated": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_experience_unfollow": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_remove_systemfeedback_error": {
+        "message": ""
+    },
+    "robloxsettings_experiencenotifications_add_systemfeedback_error": {
+        "message": ""
+    },
+
     // Marketplace Color filters UI
     "avatarshop_colorfilters_title": {
         "message": "Couleurs"
@@ -1479,8 +1724,92 @@
     "group_discovergroups": {
         "message": "Découvrir les groupes"
     },
+    "group_searchmygroups": {
+        "message": ""
+    },
     "group_creategroup": {
         "message": "Créer un groupe"
+    },
+
+    "assetdependencies_title": {
+        "message": ""
+    },
+    "assetdependencies_item_by": {
+        "message": ""
+    },
+    // label before the verison input
+    "assetdependencies_version": {
+        "message": ""
+    },
+    "assetdependencies_noresults": {
+        "message": ""
+    },
+
+    "avatar_bodycolors_or": {
+        "message": ""
+    },
+    "avatar_bodycolors_hint": {
+        "message": ""
+    },
+    "avatar_wearoutfit_error_invalidassets": {
+        "message": ""
+    },
+    "avatar_wearoutfit_error": {
+        "message": ""
+    },
+    "avatar_wearoutfit_success": {
+        "message": ""
+    },
+    "avatar_createoutfit_title": {
+        "message": ""
+    },
+    "avatar_createoutfit_placeholder": {
+        "message": ""
+    },
+    "avatar_createoutfit_description": {
+        "message": ""
+    },
+    "avatar_createoutfit_notice": {
+        "message": ""
+    },
+    "avatar_createoutfit_success": {
+        "message": ""
+    },
+    "avatar_createoutfit_error_name": {
+        "message": ""
+    },
+    "avatar_createoutfit_error_max": {
+        "message": ""
+    },
+    "avatar_createoutfit_error": {
+        "message": ""
+    },
+    "avatar_createoutfit_action": {
+        "message": ""
+    },
+    "avatar_createoutfit_neutral": {
+        "message": ""
+    },
+    "avatar_updateoutfit_title": {
+        "message": ""
+    },
+    "avatar_updateoutfit_description": {
+        "message": ""
+    },
+    "avatar_updateoutfit_action": {
+        "message": ""
+    },
+    "avatar_updateoutfit_neutral": {
+        "message": ""
+    },
+    "avatar_updateoutfit_success": {
+        "message": ""
+    },
+    "avatar_updateoutfit_error_nolongerexists": {
+        "message": ""
+    },
+    "avatar_updateoutfit_error": {
+        "message": ""
     },
 
     // For the next messages, R2E = Right to Erasure
@@ -1587,6 +1916,9 @@
     "features_section_home_general": {
         "message": "Général"
     },
+    "features_section_home_sorts": {
+        "message": ""
+    },
     "features_section_experiences": {
         "message": "Expériences"
     },
@@ -1616,6 +1948,9 @@
     },
     "features_section_miscellaneous": {
         "message": "Divers"
+    },
+    "features_section_miscellaneous_avatar": {
+        "message": ""
     },
     "features_section_miscellaneous_general": {
         "message": "Général"
@@ -1667,18 +2002,43 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "Lorsque cette option est activée, supprime tous les tris de la page d'accueil qui ne correspondent pas à \"Recommandé pour vous\", \"Favoris\", \"Continuer\", \"Jeux entre amis\" ou \"Sponsorisé\"."
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": ""
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": ""
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "En-tête utilisateur actualisé"
     },
     "features_RefreshedHomeUserHeader_description": {
         "message": "Lorsqu'il est activé, renvoie l'ancien en-tête d'utilisateur sur la page d'accueil avec quelques différences."
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_Avatar": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarHeadShot": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarBust": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_HasBackground_title": {
+        "message": ""
+    },
+
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "10 % de chances d'obtenir un message choisi en fonction de vos rôles publics"
     },
@@ -1699,9 +2059,6 @@
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
         "message": ""
-    },
-    "features_MoveExperienceSocialLinks_title": {
-        "message": "Déplacez les liens sociaux de l'expérience au-dessus de la description dans l'onglet À propos"
     },
     "features_AddCommunityWikiButton_title": {
         "message": "Ajouter un bouton pour visiter un wiki communautaire non officiel d'une expérience dans l'onglet À propos"
@@ -1765,6 +2122,12 @@
     },
     "features_CreatedUpdatedItemsTimeType_values_Regular": {
         "message": "Roblox Regular"
+    },
+    "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
+        "message": ""
+    },
+    "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
+        "message": ""
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "Sélections déroulantes persistantes"
@@ -1910,6 +2273,9 @@
     "features_AnimalText_values_Disabled": {
         "message": ""
     },
+    "features_BunnyErrorPage_title": {
+        "message": ""
+    },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "Meilleure expérience du bouton de texte alternatif de la vignette"
     },
@@ -1945,6 +2311,9 @@
     },
     "features_DiscoverFilters_description": {
         "message": "Lorsqu'il est activé, ajoute une section Filtres à la page Découvrir. Il permet de filtrer toutes sortes par pourcentage, nombre de favoris, nombre de joueurs, nombre de visites et genre."
+    },
+    "features_DiscoverTryExactMatch_title": {
+        "message": ""
     },
     "features_RoSealSettingDropdown_title": {
         "message": "Élément \"Paramètres RoSeal\" dans la liste déroulante des paramètres Roblox"
@@ -1991,6 +2360,12 @@
     "features_PutHomeFavoritesSortAtTop_title": {
         "message": ""
     },
+    "features_PutHomeContinueSortAtTop_title": {
+        "message": ""
+    },
+    "features_PutHomeFriendsAtTop_title": {
+        "message": ""
+    },
     "features_ShowVoiceChatSuspension_title": {
         "message": ""
     },
@@ -2021,6 +2396,114 @@
     "features_AddToProfileGroupExperiences_title": {
         "message": ""
     },
+    "features_AddToProfileBundles_title": {
+        "message": ""
+    },
+    "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
+        "message": ""
+    },
+    "features_CreatorMarketplaceViewOffSaleAssetPage_sub_PrioritizeStore_title": {
+        "message": ""
+    },
+    "features_ViewItemBundle_title": {
+        "message": ""
+    },
+    "features_HideModelsCreations_title": {
+        "message": ""
+    },
+    "features_HideModelsCreations_description": {
+        "message": ""
+    },
+    "features_GridSameWidth_title": {
+        "message": ""
+    },
+    "features_ForceHomeSortsCarousel_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_description": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_Default": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_RobloxDefault": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_GridTile": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_AppGameTileNoMetadata": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Always": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Hover": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_RobloxDefault": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Default": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_title": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_Disabled": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_RobloxDefault": {
+        "message": ""
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_Default": {
+        "message": ""
+    },
+    "features_ViewHiddenAvatarAsset_title": {
+        "message": ""
+    },
+    "features_ViewHiddenAvatarAsset_description": {
+        "message": ""
+    },
+    "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
+        "message": ""
+    },
+    "features_BetterExperienceNotificationsList_title": {
+        "message": ""
+    },
+    "features_BetterExperienceNotificationsList_description": {
+        "message": ""
+    },
+    "features_ExperienceCountdowns_title": {
+        "message": ""
+    },
+    "features_ExperienceCountdowns_description": {
+        "message": ""
+    },
+    "features_BodyColors3s_title": {
+        "message": ""
+    },
+    "features_AvatarItemViewSaleTimer_title": {
+        "message": ""
+    },
+    "features_ViewAvatarAssetDependencies_title": {
+        "message": ""
+    },
+    "features_FixDeeplinks_title": {
+        "message": ""
+    },
+    "features_FixDeeplinks_description": {
+        "message": ""
+    },
 
     "popup_extensionname": {
         "message": "{sealEmoji} RoSeal"
@@ -2040,12 +2523,18 @@
     "popup_permissions": {
         "message": "Autorisations facultatives"
     },
-    "popup_permissions_cookie": {
+    "popup_permissions_cookies": {
         "message": "Cookies"
     },
     // Tooltip shown when hovering over the questionmark next to "Cookies"
-    "popup_permissions_cookietooltip": {
+    "popup_permissions_cookies_tooltip": {
         "message": "Accordez cette autorisation si vous souhaitez utiliser le Gestionnaire de comptes. Vous pouvez révoquer cette autorisation à tout moment."
+    },
+    "popup_permissions_webRequest": {
+        "message": ""
+    },
+    "popup_permissions_webRequest_tooltip": {
+        "message": ""
     },
 
     // Popup data managemenet
@@ -2073,11 +2562,7 @@
     "popup_languageswitcher_title": {
         "message": ""
     },
-    // i.e. "American English (default)"
-    "popup_languageswitcher_defaulttext": {
-        "message": ""
-    },
-    "popup_languageswitcher_changenotice": {
+    "popup_languageswitcher_moved": {
         "message": ""
     },
 

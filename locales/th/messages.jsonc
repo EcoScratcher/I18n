@@ -65,6 +65,17 @@
         "message": "กลับไปที่การตั้งค่า Roblox"
     },
 
+    "settings_languageswitcher_title": {
+        "message": ""
+    },
+    // i.e. "American English (default)"
+    "settings_languageswitcher_defaulttext": {
+        "message": ""
+    },
+    "settings_languageswitcher_changenotice": {
+        "message": ""
+    },
+
     // "About" selection in menu and title
     "settings_selection_about": {
         "message": "เกี่ยวกับ RoSeal"
@@ -135,10 +146,19 @@
         "message": "ฟีเจอร์พิเศษสำหรับผู้ใช้เบราว์เซอร์ต่อไปนี้: {browsers}"
     },
     "settings_featureswitches_featureswitch_permissions_title": {
-        "message": "ฟีเจอร์นี้ต้องการการอนุญาติ"
+        "message": "การอนุญาติ"
     },
-    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+    "settings_featureswitches_featureswitch_permissions_required_title": {
+        "message": "ต้องการ"
+    },
+    "settings_featureswitches_featureswitch_permissions_optional_title": {
+        "message": "แล้วแต่"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_cookies": {
         "message": "คุกกี้"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_webRequest": {
+        "message": "คำขอทางเว็ป"
     },
     "settings_featureswitches_featureswitch_permissions_subtext": {
         "message": "การอนุญาติสามารถทำได้ใน หน้าฟีเจอร์ของ RoSeal:"
@@ -156,6 +176,18 @@
     },
     "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
         "message": "เกิดข้อผิดพลาดขณะล้างข้อมูลที่เกี่ยวกับฟีเจอร์นี้ , กรุณาลองอีกครั้ง"
+    },
+    "promptpermissionsmodal_title": {
+        "message": "{sealEmoji} ให้สิทธิ์เพิ่มเติม"
+    },
+    "promptpermissionsmodal_body": {
+        "message": "คุณต้องการให้สิทธิ์เพิ่มเติมสำหรับฟังก์ชันการทำงานเพิ่มเติมหรือไม่ {lineBreak}{lineBreak}คลิก \"ใช่\" และในป๊อปอัปให้สิทธิ์ \"{permissionName}\" สำหรับฟังก์ชันการทำงาน:{lineBreak}{functionityText}"
+    },
+    "promptpermissionsmodal_action": {
+        "message": "ใช่"
+    },
+    "promptpermissionsmodal_neutral": {
+        "message": "ไม่"
     },
 
     // "Blocked Experiences" selection tab in menu and title
@@ -273,18 +305,28 @@
         "message": "RoSeal ยังไม่ได้รับอนุญาคิให้จัดการกับ cookies ของเบราว์เซอร์ , กรุณาอนุญาคิในหน้า รายการของ RoSeal"
     },
 
+    "experience_countdown_release": {
+        "message": "{isSoon, select, true {<label>การเผยแพร่</label> <time>เร็วๆนี้</time>} other {<label>เผยแพร่ในอีก</label> <time>{timeDuration}</time>} }"
+    },
+    "experience_countdown_update": {
+        "message": "{isSoon, select, true {<label>อัพเดท</label> <time>เร็วๆนี้</time>} other {<label>อัพเดทในอีก</label> <time>{timeDuration}</time>} }"
+    },
+    "experience_countdown_unknown": {
+        "message": "{isSoon, select, true {<label>อีเวนท์</label> <time>จะเกิดขึ้น เร็วๆนี้</time>} other {<label>อีเวนท์ในอีก</label> <time>{timeDuration}</time>} }"
+    },
+
     // The context menu "..." item that appears in the item dropdown menu to view the icon asset
     "experience_contextmenu_viewiconasset": {
         "message": "ดูรูปไอคอน"
     },
     "experience_contextmenu_addtoprofile": {
-        "message": ""
+        "message": "เพิ่มไปยังหน้าโปรไฟล์"
     },
     "experience_contextmenu_removefromprofile": {
-        "message": ""
+        "message": "นำออกจากหน้าโปรไฟล์"
     },
 
-    // "Private Servre Links" section
+    // "Private Server Links" section
     "experience_privateserverlinks_title": {
         "message": "ลิงค์เซิร์ฟเวอร์ส่วนตัว"
     },
@@ -517,6 +559,101 @@
         "message": "Universe ID ของแมพ"
     },
 
+    // haa = hidden avatar asset
+    "haa_deletemodal_title": {
+        "message": "{sealEmoji} ลบออกจากกระเป๋า"
+    },
+    "haa_deletemodal_body": {
+        "message": "คุณแน่ใจหรือไม่ว่าต้องการลบรายการนี้ออกจากกระเป๋าของคุณ?"
+    },
+    "haa_deletemodal_action": {
+        "message": "ยืนยัน"
+    },
+    "haa_deletemodal_neutral": {
+        "message": "ยกเลิก"
+    },
+    "haa_deletemodal_systemfeedback_success": {
+        "message": "ลบรายการออกนี้จากกระเป๋าสำเร็จแล้ว"
+    },
+    "haa_deletemodal_systemfeedback_error": {
+        "message": "ไม่สามารถลบรายการออกนี้จากกระเป๋าของคุณได้"
+    },
+    "haa_tryon": {
+        "message": "ลอง"
+    },
+    "haa_takeoff": {
+        "message": "ถอดออก"
+    },
+    "haa_3d": {
+        "message": "3 มิติ"
+    },
+    "haa_2d": {
+        "message": "2 มิติ"
+    },
+    "haa_by": {
+        "message": "โดย {creator}"
+    },
+    "haa_itemowned": {
+        "message": "ไอเทม มีอยู่แล้ว{quantityLimited, select, false { ({count})} other {} }"
+    },
+    "haa_availableinventory": {
+        "message": "ไอเทมนี้มีอยู่ในกระเป๋าของคุณ"
+    },
+    "haa_offsale": {
+        "message": "ไอเทมชิ้นนี้ไม่มีจำหน่ายในขณะนี้"
+    },
+    "haa_premiumsave": {
+        "message": "คุณประหยัด {percentage}% ด้วย พรีเมี่ยม (original price: {originalPrice})"
+    },
+    "haa_availablepremium": {
+        "message": "ไอเทมนี้ใช้ได้เนื่องจากคุณเป็นสมาชิกระดับพรีเมียม"
+    },
+    "haa_unavailablepremium": {
+        "message": "ไอเทมนี้มีให้สำหรับสมาชิกพรีเมี่ยมเท่านั้น"
+    },
+    "haa_fields_type": {
+        "message": "ประเภท"
+    },
+    "haa_fields_tradable": {
+        "message": "ซื้อขายได้"
+    },
+    "haa_fields_tradable_yes": {
+        "message": "ใช่"
+    },
+    "haa_fields_tradable_no": {
+        "message": "ไม่"
+    },
+    "haa_fields_description": {
+        "message": "คำอธิบาย"
+    },
+    "haa_addtofavorites": {
+        "message": "เพิ่มในรายการโปรด"
+    },
+    "haa_removefromfavorites": {
+        "message": "ลบออกจากรายการโปรด"
+    },
+    "haa_contextmenu_reportitem": {
+        "message": "รายงานไอเทมนี้"
+    },
+    "haa_contextmenu_addtoprofile": {
+        "message": "เพิ่มไปยังโปรไฟล์"
+    },
+    "haa_contextmenu_removefromprofile": {
+        "message": "ลบออกจากหน้าโปรไฟล์"
+    },
+    "haa_addtoprofile_systemfeedback_success": {
+        "message": "เพิ่มไอเทมในโปรไฟล์ของคุณสำเร็จแล้ว"
+    },
+    "haa_removefromprofile_systemfeedback_success": {
+        "message": "ลบไอเทมออกจากโปรไฟล์ของคุณเรียบร้อยแล้ว"
+    },
+    "haa_addtoprofile_systemfeedback_error": {
+        "message": "ไม่สามารถเพิ่มไอเทมในโปรไฟล์ของคุณ"
+    },
+    "haa_removefromprofile_systemfeedback_error": {
+        "message": "ไม่สามารถลบไอเทมออกจากโปรไฟล์ของคุณ"
+    },
+
     // The asset's numeric product ID
     "generalasset_productid": {
         "message": "ไอดีไอเทม"
@@ -525,8 +662,14 @@
     "collectibleasset_collectibleitemid": {
         "message": "ไอดีของลิมิเต็ด"
     },
+    "bundle_collectibleitemid": {
+        "message": "ไอดีของลิมิเด็ด"
+    },
     // The collectible product UUID ID
     "collectibleasset_collectibleproductid": {
+        "message": "ไอดีไอเทมของของลิมิเต็ด"
+    },
+    "bundle_collectibleproductid": {
         "message": "ไอดีไอเทมของของลิมิเต็ด"
     },
 
@@ -540,9 +683,38 @@
         "message": "รีเฟรชข้อมูลไอเทม"
     },
 
+    // Off sale timer for avatar items that will appear under the Price, countdown is automatically translated
+    "avataritem_saletimer": {
+        "message": "ลดราคาใน {countdown}"
+    },
+
+    // Shows instead of just the time, updatedTime is when item was updated
+    "avataritem_updated_by": {
+        "message": "{updatedTime} (โดย {user})"
+    },
+
+    // Shows instead of just the time, createdTime is when item was created
+    "avataritem_created_by": {
+        "message": "{createdTime} (โดย {user})"
+    },
+
     // "Refresh Item Details" tooltip when hovering over the search icon next to the creator name
     "avataritem_searchbycreator": {
         "message": "ค้นหาไอเทมโดยผู้สร้างคนนี้"
+    },
+
+    // Item bundles at the top of the page
+    "avataritem_itembundles_multiplebundles": {
+        "message": "ไอเทมนี้เป็นส่วนหนึ่งของชุดหลายชุดและน่าจะเป็นเนื้อหาเทมเพลต"
+    },
+    "avataritem_itembundles_searchbundles": {
+        "message": "ค้นหาชุด"
+    },
+    "avataritem_itembundles_partof": {
+        "message": "ไอเทมนี้เป็นส่วนหนึ่งของ {link}{hasPrice, select, true { ({price})} other {} } ชุด"
+    },
+    "avataritem_itembundles_partof_view": {
+        "message": "ดู"
     },
 
     // The pass's numeric product ID field
@@ -630,12 +802,12 @@
         "message": "เพิ่ม เกมพาส"
     },
     "experience_passes_header": {
-        "message": ""
+        "message": "เกมพาส"
     },
 
     // Shown over the Play button to indicate to the user that their avatar may not be as intended in the experience
-    "experience_avatarrestricted": {
-        "message": "อวาตาร์ปัจจุบันของคุณอาจะมีลักษณะที่ไม่เหมือนที่คุณแต่งไว้ใน แมพ นี้"
+    "experience_avatarrestricted2": {
+        "message": "อวาตาร์ของคุณอาจถูกปรับขนาดในแมพนี้"
     },
     // Table header items, "Field" in this context, is like part of an avatar, avatar type, body, proportion, etc.
     "experience_avatarrestricted_compare_field": {
@@ -704,6 +876,9 @@
     "item_offsale_short": {
         "message": "ไม่ขาย"
     },
+    "item_free": {
+        "message": "ฟรี"
+    },
 
     // Developer product fields stuff.
     "developerproduct_offsale": {
@@ -729,6 +904,12 @@
     },
     "developerproduct_contextmenu_viewiconasset": {
         "message": "ดูรูปไอคอน"
+    },
+    "developerproduct_by": {
+        "message": "โดย <creatorLink>{creatorType, select, User {@} other {}}{creatorName}</creatorLink>"
+    },
+    "developerproduct_purchaseassociateduniverse": {
+        "message": "ชื้อไอเทมของผู้พัฒนานี้ ได้ที่: {link}"
     },
 
     // Whenever the RoSeal privacy policy updates, we show this modal. Only shown once per privacy policy update since the user installed the extension.
@@ -767,8 +948,11 @@
         "message": "{sealEmoji} คุณกำลังออกจาก Roblox"
     },
     // Modal shown when clicking the button to warn the user
-    "experience_communitywiki_modal_body": {
-        "message": "เดี๋ยวก่อน !, ผู้เล่น Roblox – หากกด “ดำเนินการต่อ,” คุณจะไปที่หน้า Fandom, ที่ไม่เกี่ยวข้องกับ Roblox. อาจมีข้อกำหนดและนโยบายความเป็นส่วนตัวที่ไม่เหมือนกัน.{lineBreak}{lineBreak}คอมมูนิตี้ Wiki ที่ไม่เป็นทางการจะนำคุณไปที่หน้าที่เป็นส่วนหนึ่งของโครงการ Roblox Interwiki บน Fandom และต้อง แก้ไขโดยชุมชน ข้อมูลอาจจะไม่ถูกต้อง ไม่มี ไม่เป็นปัจจุบัน หรือถูกดัดแปลง"
+    "experience_communitywiki_modal_body_fandom": {
+        "message": "ผู้เล่น โปรดทราบ – เมื่อคลิก “ดำเนินการต่อ” คุณจะถูกเปลี่ยนเส้นทางไปยัง Fandom ซึ่ง Roblox ไม่ได้เป็นเจ้าของหรือเป็นผู้ดำเนินการ พวกเขามีข้อกำหนดและนโยบายความเป็นส่วนตัวที่แตกต่างกัน {lineBreak}{lineBreak}วิกิชุมชนอย่างไม่เป็นทางการที่คุณจะถูกเปลี่ยนเส้นทางให้อาศัยการแก้ไขโดยชุมชน ข้อมูลอาจเป็นที่ถกเถียง ทำลายล้าง ล้าสมัย หรือถูกดัดแปลง"
+    },
+    "experience_communitywiki_modal_body_other": {
+        "message": "ผู้เล่น โปรดทราบ – เมื่อคลิก “ดำเนินการต่อ” คุณจะถูกเปลี่ยนเส้นทางไปยัง {wikiDomain} ซึ่ง Roblox ไม่ได้เป็นเจ้าของหรือดำเนินการ อาจมีข้อกำหนดและนโยบายความเป็นส่วนตัวที่แตกต่างกัน {lineBreak}{lineBreak}วิกิชุมชนอย่างไม่เป็นทางการที่คุณจะถูกเปลี่ยนเส้นทางไปอาจอาศัยการแก้ไขโดยชุมชน ข้อมูลอาจเป็นที่ถกเถียง ทำลายล้าง ล้าสมัย หรือถูกดัดแปลง"
     },
     "experience_communitywiki_modal_action": {
         "message": "ดำเนินการต่อ"
@@ -783,34 +967,34 @@
         "message": "คุณทำการซื้อไอเทมสำเร็จแล้ว"
     },
     "avataritem_loadingmessage_Load": {
-        "message": ""
+        "message": "กำลังซื้อไอเทม ..."
     },
     "avataritem_errormessage_Flooded": {
-        "message": ""
+        "message": "ซื้อไอเทมนี้หลายครั้งเกินไป , กรุณาลองใหม่อีกครั้งในภายหลัง"
     },
     "avataritem_errormessage_InsufficentBalance": {
-        "message": ""
+        "message": "คุณไม่มีโรบัคพอที่จะซื้อไอเทมนี้"
     },
     "avataritem_errormessage_PriceMismatch": {
-        "message": ""
+        "message": "ราคาของไอเทมนี้มีการเปลี่ยนแปลงเมื่อเร็วๆนี้ , กรุณารีเฟรชหน้านี้อีกครั้ง"
     },
     "avataritem_errormessage_QuantityExhausted": {
-        "message": ""
+        "message": "ไอเทมนี้มีจำนวนจำกัดหมดแล้ว"
     },
     "avataritem_errormessage_AlreadyOwned": {
-        "message": ""
+        "message": "คุณเป็นเจ้าของไอเทมนี้อยู่แล้ว"
     },
     "avataritem_errormessage_NotForSale": {
-        "message": ""
+        "message": "ไอเทมนี้ยังไม่เปิดขาย"
     },
     "avataritem_errormessage_SupplyExhausted": {
-        "message": ""
+        "message": "ไอเทมนี้มีจำนวนจำกัดหมดแล้ว"
     },
     "avataritem_errormessage_InsufficientFundsView": {
-        "message": ""
+        "message": "คุณไม่มีโรบัคพอที่จะซื้อไอเทมนี้"
     },
     "avataritem_errormessage_PriceChangedView": {
-        "message": ""
+        "message": "ราคาของไอเทมนี้มีการเปลี่ยนแปลงเมื่อเร็วๆนี้ , กรุณารีเฟรชหน้านี้อีกครั้ง"
     },
 
     "avataritem_errormessage_Load": {
@@ -834,6 +1018,11 @@
     // "View Thumbnail Asset" button shown in the lower right side on experience thumbnails if available.
     "experience_media_viewthumbnailasset": {
         "message": "ดูรูปภาพปก"
+    },
+
+    // Shown in inventory when an item is hidden, like LIMITED or LIMITED UNIQUE tags
+    "itemtag_hidden": {
+        "message": ""
     },
 
     // Funny little home header secret messages that can be shown despite the user's role
@@ -926,6 +1115,12 @@
     },
     "homeheader_secretmessage_Default30": {
         "message": "อืม... อร่อยไหม?"
+    },
+    "homeheader_secretmessage_Default31": {
+        "message": "การล่า"
+    },
+    "homeheader_secretmessage_Default32": {
+        "message": "แจ๊บบ้าตามล่า"
     },
 
     // Additional text shown if the user is in the "BetaTester" role. These are users that signed up for it on the DevForum.
@@ -1098,6 +1293,10 @@
     },
     "userlookup_directlookuperror": {
         "message": "ไม่พบผู้ใช้ที่มีชื่อนั้น"
+    },
+
+    "discover_tryexactmatch": {
+        "message": "ไม่พบสิ่งที่คุณกำลังมองหา? ลองใช้ <boldText>การค้นหาแบบทั้งหมด</boldText> โดยใส่คีย์เวิร์ดด้วยเครื่องหมายคำพูด: {newKeyword}"
     },
 
     // Discover filters labels and dropdown values stuff
@@ -1385,6 +1584,20 @@
         "message": "บังคับให้เลิกติดตาม"
     },
 
+    // Set visibility status of models & packages in Creations tab
+    "userprofile_creations_modelsvisibility_title": {
+        "message": "ทัศนวิสัย"
+    },
+    "userprofile_creations_modelsvisibility_titletooltip": {
+        "message": "สิ่งนี้จะเปลี่ยนการเปิดเผยโมเดลของคุณในแท็บการสร้างสรรค์เท่านั้น เมื่อตั้งค่าเป็นซ่อน ผู้ใช้ RoSeal จะไม่เห็นโมเดลใดๆ ของคุณ และผู้ใช้ที่ไม่มี RoSeal จะเห็นเพียงโมเดล \"ซ่อน\" เพียง 1 โมเดลเท่านั้น"
+    },
+    "userprofile_creations_modelsvisibility_items_Visible": {
+        "message": "มองเห็นได้"
+    },
+    "userprofile_creations_modelsvisibility_items_Hidden": {
+        "message": "ซ่อน"
+    },
+
     // System feedback banners for force unfollow in the profile
     "userprofile_actions_forceunfollow_systemfeedback_success": {
         "message": "บังคับให้ผู้ใช้เลิกติดตามคุณสำเร็จ"
@@ -1452,6 +1665,38 @@
         "message": "คุณสามารถการเข้าถึงได้ในวันที่ {date}"
     },
 
+    // Better "Experience Notifications" section
+    "robloxsettings_experiencenotifications_title": {
+        "message": "การแจ้งเตือนแมพ"
+    },
+    "robloxsettings_experiencenotifications_description": {
+        "message": "การอัปเดตกิจกรรมจากแมพที่คุณเปิดการแจ้งเตือน"
+    },
+    // when the user hasn't followed any experiences yet
+    "robloxsettings_experiencenotifications_noexperiences": {
+        "message": "คุณยังไม่ได้ติดตามแมพใดๆ"
+    },
+    "robloxsettings_experiencenotifications_experience_by": {
+        "message": "โดย {mention}"
+    },
+    "robloxsettings_experiencenotifications_experience_since": {
+        "message": "ตั้งแต่ {date}"
+    },
+    // not actually the last updated date.... it's the last time the developer pushed out an update to push notifications
+    // via Experience Updates
+    "robloxsettings_experiencenotifications_experience_lastupdated": {
+        "message": "อัพเดทล่าสุด {date}"
+    },
+    "robloxsettings_experiencenotifications_experience_unfollow": {
+        "message": "ยกเลิกติดตาม"
+    },
+    "robloxsettings_experiencenotifications_remove_systemfeedback_error": {
+        "message": "คุณกำลังปิดการแจ้งเตือนแมพเร็วเกินไป โปรดลองอีกครั้ง"
+    },
+    "robloxsettings_experiencenotifications_add_systemfeedback_error": {
+        "message": "คุณกำลังเปิดใช้งานการแจ้งเตือนแมพเร็วเกินไป โปรดลองอีกครั้ง"
+    },
+
     // Marketplace Color filters UI
     "avatarshop_colorfilters_title": {
         "message": "สี"
@@ -1479,8 +1724,92 @@
     "group_discovergroups": {
         "message": "ค้นพบกลุ่ม"
     },
+    "group_searchmygroups": {
+        "message": "ค้นหาในกลุ่ม"
+    },
     "group_creategroup": {
         "message": "สร้างกลุ่ม"
+    },
+
+    "assetdependencies_title": {
+        "message": "Dependencies"
+    },
+    "assetdependencies_item_by": {
+        "message": "โดย {creator}"
+    },
+    // label before the verison input
+    "assetdependencies_version": {
+        "message": "เวอร์ชัน: "
+    },
+    "assetdependencies_noresults": {
+        "message": "ไม่พบ Dependencies หรือไม่มีเวอร์ชันนี้"
+    },
+
+    "avatar_bodycolors_or": {
+        "message": ""
+    },
+    "avatar_bodycolors_hint": {
+        "message": ""
+    },
+    "avatar_wearoutfit_error_invalidassets": {
+        "message": ""
+    },
+    "avatar_wearoutfit_error": {
+        "message": ""
+    },
+    "avatar_wearoutfit_success": {
+        "message": ""
+    },
+    "avatar_createoutfit_title": {
+        "message": ""
+    },
+    "avatar_createoutfit_placeholder": {
+        "message": ""
+    },
+    "avatar_createoutfit_description": {
+        "message": ""
+    },
+    "avatar_createoutfit_notice": {
+        "message": ""
+    },
+    "avatar_createoutfit_success": {
+        "message": ""
+    },
+    "avatar_createoutfit_error_name": {
+        "message": ""
+    },
+    "avatar_createoutfit_error_max": {
+        "message": ""
+    },
+    "avatar_createoutfit_error": {
+        "message": ""
+    },
+    "avatar_createoutfit_action": {
+        "message": ""
+    },
+    "avatar_createoutfit_neutral": {
+        "message": ""
+    },
+    "avatar_updateoutfit_title": {
+        "message": ""
+    },
+    "avatar_updateoutfit_description": {
+        "message": ""
+    },
+    "avatar_updateoutfit_action": {
+        "message": ""
+    },
+    "avatar_updateoutfit_neutral": {
+        "message": ""
+    },
+    "avatar_updateoutfit_success": {
+        "message": ""
+    },
+    "avatar_updateoutfit_error_nolongerexists": {
+        "message": ""
+    },
+    "avatar_updateoutfit_error": {
+        "message": ""
     },
 
     // For the next messages, R2E = Right to Erasure
@@ -1587,6 +1916,9 @@
     "features_section_home_general": {
         "message": "ทั่วไป"
     },
+    "features_section_home_sorts": {
+        "message": "เรียงลำดับ"
+    },
     "features_section_experiences": {
         "message": "แมพ"
     },
@@ -1616,6 +1948,9 @@
     },
     "features_section_miscellaneous": {
         "message": "อื่นๆ"
+    },
+    "features_section_miscellaneous_avatar": {
+        "message": ""
     },
     "features_section_miscellaneous_general": {
         "message": "ทั่วไป"
@@ -1667,18 +2002,43 @@
     "features_RemoveHomePageUnnecessarySorts_description": {
         "message": "เมื่อเปิดใช้งาน จะลบการจัดเรียง ออกจากหน้าแรกที่เกี่ยวกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\", หรือ \"สปอนเซอร์\""
     },
-    "features_ForceHomePageGenreExplorer_title": {
-        "message": "บังคับจัดเรียงของหน้าแรกเอา \"สิ่งที่ไม่จำเป็น\" เป็นตัวจัดเรียง"
-    },
-    "features_ForceHomePageGenreExplorer_description": {
-        "message": "เมื่อเปิดใช้งาน ทุกประเภทที่ไม่ตรงกับ \"แนะนำสำหรับคุณ\", \"รายการโปรด\", \"เล่นต่อ\", \"แมพที่เพื่อนเล่น\" หรือ \"สปอนเซอร์\" จะถูกใส่ลงใน \"หมวดหมู่\" ตัวจัดเรียงที่ด้านบนของจัดเรียงหน้าแรก"
-    },
     "features_RefreshedHomeUserHeader_title": {
         "message": "รีเฟรชส่วนของผู้ใช้"
     },
     "features_RefreshedHomeUserHeader_description": {
         "message": "เมื่อเปิดใช้งาน จะแสดงส่วนของผู้ใช้เก่าในหน้าแรกโดยมีความแตกต่างกันเล็กน้อย"
     },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Small": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Medium": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_Large": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarSize_values_ExtraLarge": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_title": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_Avatar": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarHeadShot": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_AvatarType_values_AvatarBust": {
+        "message": ""
+    },
+    "features_RefreshedHomeUserHeader_sub_HasBackground_title": {
+        "message": ""
+    },
+
     "features_RefreshedHomeUserHeader_sub_BasedText_title": {
         "message": "โอกาส 10% ของข้อความที่เลือกตามบทบาทสาธารณะของคุณ"
     },
@@ -1699,9 +2059,6 @@
     },
     "features_RefreshedHomeUserHeader_sub_ShowNameType_values_Username": {
         "message": "แสดงชื่อผู้ใช้เท่านั้น"
-    },
-    "features_MoveExperienceSocialLinks_title": {
-        "message": "ย้ายลิงก์โซเชียลของแมพไปยังคำอธิบายของแมพในแท็บเกี่ยวกับ"
     },
     "features_AddCommunityWikiButton_title": {
         "message": "เพิ่มปุ่มเพื่อเยี่ยมชม คอมมูนิตี้ วิกิ ที่ไม่เป็นทางการของ แมพ ในแท็บ เกี่ยวกับ"
@@ -1765,6 +2122,12 @@
     },
     "features_CreatedUpdatedItemsTimeType_values_Regular": {
         "message": "ปกติของ Roblox"
+    },
+    "features_CreatedUpdatedItemsTimeType_sub_GroupUpdated_title": {
+        "message": "แสดงให้ผู้ใช้เห็นว่าอัปเดตรายการอวตารที่สร้างโดยกลุ่มครั้งล่าสุด"
+    },
+    "features_CreatedUpdatedItemsTimeType_sub_GroupCreated_title": {
+        "message": "แสดงผู้ใช้ที่สร้างรายการอวตารที่สร้างโดยกลุ่ม หากไม่ตรงกับผู้ใช้ที่อัปเดตครั้งล่าสุด"
     },
     "features_PersistentTransactionsSelection_title": {
         "message": "การเลือกเมนูแบบเลื่อนลง"
@@ -1910,6 +2273,9 @@
     "features_AnimalText_values_Disabled": {
         "message": "ปิดการใช้งาน"
     },
+    "features_BunnyErrorPage_title": {
+        "message": "แทนที่ภาพข้อผิดพลาดบนหน้าข้อผิดพลาดด้วยภาพข้อผิดพลาดจาก ศูนย์กลางนักพัฒนา เดิม"
+    },
     "features_ExperienceMediaAltTextButton_title": {
         "message": "ปุ่มข้อความแสดงภาพขนาดย่อขอ แมพ ที่ดีขึ้น"
     },
@@ -1945,6 +2311,9 @@
     },
     "features_DiscoverFilters_description": {
         "message": "เมื่อเปิดใช้งาน เพิ่มส่วนฟิลเตอร์ในหน้าค้นหา อนุญาตให้ฟิลเตอร์ทุกประเภทตามเปอร์เซ็นต์การกดไลค์ จำนวนคนที่ชื่นชอบ จำนวนผู้เล่น จำนวนผู้เข้าชม และตามประเภท"
+    },
+    "features_DiscoverTryExactMatch_title": {
+        "message": "แนะนำให้ลองใช้การค้นหาแบบทั้งหมด"
     },
     "features_RoSealSettingDropdown_title": {
         "message": "\"การตั้งค่าของ RoSeal\" ในดร็อปดาวน์การตั้งค่า Roblox"
@@ -1991,6 +2360,12 @@
     "features_PutHomeFavoritesSortAtTop_title": {
         "message": "ทำให้ \"รายการโปรด\" อยู่ด้านบนของหน้าหลัก"
     },
+    "features_PutHomeContinueSortAtTop_title": {
+        "message": ""
+    },
+    "features_PutHomeFriendsAtTop_title": {
+        "message": ""
+    },
     "features_ShowVoiceChatSuspension_title": {
         "message": "แสดงรายละเอียดการระงับการแชทด้วยเสียงและวันที่แบบเต็ม"
     },
@@ -2019,6 +2394,114 @@
         "message": "บังคับให้จํานวนกระเป๋าเงินในการนําทางแสดงเฉพาะในเมนูแบบเลื่อนลง"
     },
     "features_AddToProfileGroupExperiences_title": {
+        "message": "อนุญาตให้เพิ่มแมพที่เป็นเจ้าของกลุ่มที่คุณเป็นเจ้าของในโปรไฟล์ของคุณ"
+    },
+    "features_AddToProfileBundles_title": {
+        "message": "อนุญาตให้เพิ่มชุดรวมที่เป็นเจ้าของไปยังคอลเลกชันโปรไฟล์ของคุณ"
+    },
+    "features_CreatorMarketplaceViewOffSaleAssetPage_title": {
+        "message": "อนุญาตให้ดูรายละเอียดสินทรัพย์การขายในร้านค้าผู้สร้าง"
+    },
+    "features_CreatorMarketplaceViewOffSaleAssetPage_sub_PrioritizeStore_title": {
+        "message": ""
+    },
+    "features_ViewItemBundle_title": {
+        "message": "แสดงชุดที่เป็นที่มาของชุด"
+    },
+    "features_HideModelsCreations_title": {
+        "message": "ตั้งค่าสถานะการมองเห็นของรุ่นและแพ็คเกจในโปรไฟล์ของคุณ"
+    },
+    "features_HideModelsCreations_description": {
+        "message": "เมื่อเปิดใช้งาน จะทำให้คุณสามารถตั้งค่าสถานะการมองเห็นของแท็บคอลเลกชันโมเดลและการสร้างสรรค์ของคุณในการสร้างสรรค์บนโปรไฟล์ของคุณ เมื่อคุณตั้งค่าการมองเห็นเป็น \"ซ่อน\" ผู้ใช้ RoSeal จะไม่เห็นส่วน \"โมเดลและแพ็คเกจ\" ใด ๆ ที่ถูกซ่อนด้วย RoSeal ผู้ใช้ที่ไม่มี RoSeal จะเห็นเพียงโมเดล \"ซ่อน\" เพียง 1 โมเดลเท่านั้น คุณยังสามารถเพิ่ม \"!hide\" ให้กับชื่อของโมเดลที่มีอยู่เพื่อซ่อนทั้งส่วนได้หากเป็นเพียงรายการเดียว"
+    },
+    "features_GridSameWidth_title": {
+        "message": "บังคับให้ไทล์ sortless มีความกว้างเท่ากับไทล์แบบหมุนในหน้าแรก"
+    },
+    "features_ForceHomeSortsCarousel_title": {
+        "message": "ยุบตารางการเรียงลำดับหน้าแรกเป็นภาพหมุน"
+    },
+    "features_OverrideHomeSortsLayout_title": {
+        "message": "แทนที่สไตล์เค้าโครงสำหรับการเรียงลำดับหน้าหลัก"
+    },
+    "features_OverrideHomeSortsLayout_description": {
+        "message": "เมื่อเปิดใช้งาน จะแทนที่เค้าโครงสำหรับทุกประเภทในหน้าแรกเป็นสิ่งที่คุณตั้งค่าไว้ ไม่รองรับการตั้งค่าบางอย่างหากไม่ได้ตั้งค่า \"ประเภทส่วนประกอบ\" เป็น \"ไทล์ภาพขนาดย่อ\""
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_title": {
+        "message": "ประเภทส่วนประกอบ"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_Default": {
+        "message": "ค่าเริ่มต้น"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_RobloxDefault": {
+        "message": "ตั้ง โดย Roblox"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_GridTile": {
+        "message": "ไทล์ภาพขนาดย่อ"
+    },
+    "features_OverrideHomeSortsLayout_sub_ComponentType_values_AppGameTileNoMetadata": {
+        "message": "ไทล์ที่ไม่มีข้อมูลเมตา"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_title": {
+        "message": "จำนวนผู้เล่น"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Always": {
+        "message": "ปรากฏอยู่เสมอ"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Hover": {
+        "message": "ปรากฏเมื่อโฮเวอร์"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_RobloxDefault": {
+        "message": "ตั้ง โดย Roblox"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayerCount_values_Default": {
+        "message": "ค่าเริ่มต้น"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_title": {
+        "message": "ปุ่มเล่น"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_Disabled": {
+        "message": "ปิดการใช้งาน"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_RobloxDefault": {
+        "message": "ตั้ง โดย Roblox"
+    },
+    "features_OverrideHomeSortsLayout_sub_PlayButton_values_Default": {
+        "message": "ค่าเริ่มต้น"
+    },
+    "features_ViewHiddenAvatarAsset_title": {
+        "message": "ดูรายละเอียดของเนื้อหาอวตารที่ซ่อนอยู่"
+    },
+    "features_ViewHiddenAvatarAsset_description": {
+        "message": "เมื่อเปิดใช้งาน คุณจะสามารถดูรายละเอียดของเนื้อหาอวตารที่ซ่อนอยู่ได้จากหน้า `/hidden-catalog/ITEM_ID/ITEM_NAME` เนื้อหาอวาตาร์ที่ซ่อนอยู่คือรายการที่ไม่สามารถเข้าถึงได้ตามปกติและเปลี่ยนเส้นทางกลับไปยังตลาดกลาง คุณยังสามารถให้สิทธิ์ในการเปลี่ยนเส้นทางไปยังหน้า RoSeal โดยอัตโนมัติเพื่อดูรายละเอียดของเนื้อหาอวตารที่ซ่อนอยู่ แทนที่จะไปที่ ร้านค้า"
+    },
+    "features_ViewHiddenAvatarAsset_optionalpermissions_webRequest_tooltiptext": {
+        "message": "ให้สิทธิ์นี้เพื่ออนุญาตให้ส่วนขยายเปลี่ยนเส้นทางไปยังหน้า RoSeal โดยอัตโนมัติเพื่อดูรายละเอียดของเนื้อหาอวาตาร์ที่ซ่อนอยู่ แทนที่จะไปยังตลาดกลาง"
+    },
+    "features_BetterExperienceNotificationsList_title": {
+        "message": "รายการการแจ้งเตือนแมพที่ดีขึ้น"
+    },
+    "features_BetterExperienceNotificationsList_description": {
+        "message": "เมื่อเปิดใช้งาน จะเพิ่มไฮเปอร์ลิงก์ วันที่อัปเดตล่าสุด และการแจ้งเตือนที่เปิดตั้งแต่วันที่ถึงประสบการณ์ในหมวดหมู่ \"การแจ้งเตือนแมพ\" ในการแจ้งเตือนในการตั้งค่าบัญชี"
+    },
+    "features_ExperienceCountdowns_title": {
+        "message": "การนับถอยหลังการเปิดตัว/อัปเดต/กิจกรรมในหน้ารายละเอียดแมพ"
+    },
+    "features_ExperienceCountdowns_description": {
+        "message": "เมื่อเปิดใช้งาน จะเพิ่มการนับถอยหลังการเปิดตัว/อัปเดต/กิจกรรมสำหรับประสบการณ์ที่มีสิทธิ์เหนือปุ่มเล่นหรือตำแหน่งที่จะเป็น เมื่อประสบการณ์ที่มีการนับถอยหลังการเปิดตัว การนับถอยหลังจะถูกลบออก และปุ่มเล่นจะรีเฟรชโดยอัตโนมัติ การนับถอยหลังเหตุการณ์จะถือเป็นการนับถอยหลังการอัปเดต"
+    },
+    "features_BodyColors3s_title": {
+        "message": ""
+    },
+    "features_AvatarItemViewSaleTimer_title": {
+        "message": "ดูตัวจับเวลาการขายที่ซ่อนไว้ในปัจจุบันในรายการอวตารที่มีเวลาจำกัด"
+    },
+    "features_ViewAvatarAssetDependencies_title": {
+        "message": "ดู dependencies ของอวตาร"
+    },
+    "features_FixDeeplinks_title": {
+        "message": ""
+    },
+    "features_FixDeeplinks_description": {
         "message": ""
     },
 
@@ -2040,12 +2523,18 @@
     "popup_permissions": {
         "message": "สิทธิ์เพิ่มเติม"
     },
-    "popup_permissions_cookie": {
+    "popup_permissions_cookies": {
         "message": "คุกกี้"
     },
     // Tooltip shown when hovering over the questionmark next to "Cookies"
-    "popup_permissions_cookietooltip": {
+    "popup_permissions_cookies_tooltip": {
         "message": "กรุณาให้สิทธิ์นี้หากคุณต้องการใช้ตัวจัดการบัญชี คุณสามารถนำการอนุญาตนี้ออกได้ตลอดเวลา"
+    },
+    "popup_permissions_webRequest": {
+        "message": "คำขอทางเว็ป"
+    },
+    "popup_permissions_webRequest_tooltip": {
+        "message": "ให้สิทธิ์นี้หากคุณต้องการให้เปลี่ยนเส้นทางไปที่หน้า RoSeal เพื่อดูรายละเอียดของอวตารที่ซ่อนอยู่ แทนที่จะไปที่ ร้านค้า คุณสามารถเพิกถอนการอนุญาตนี้ได้ตลอดเวลา"
     },
 
     // Popup data managemenet
@@ -2073,12 +2562,8 @@
     "popup_languageswitcher_title": {
         "message": "เปลื่ยนภาษา"
     },
-    // i.e. "American English (default)"
-    "popup_languageswitcher_defaulttext": {
-        "message": "(ค่าเริ่มต้น)"
-    },
-    "popup_languageswitcher_changenotice": {
-        "message": "บางหน้าอาจต้องรีเฟรช 2-3 ครั้งเพื่อให้มีการเปลี่ยนแปลง"
+    "popup_languageswitcher_moved": {
+        "message": ""
     },
 
     // Display in the RoSeal popup and in settings.
